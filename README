@@ -1,3 +1,10 @@
-1. First install se-interpreter. Using npm install se-interpreter or npm install -g se-interpreter
-2. Change username and access key in example_multi_config.json
-3. To run it: se-interpreter example_multi_config.json
+Steps:
+
+1. Download the Selenium builder extension for Firefox here – http://sebuilder.github.io/se-builder/
+2. After you've installed the extension in Firefox, go to Tools → Web Developer → Launch Selenium builder
+3. Record your test and once done, in the Selenium Builder, go to File → Export → Save as JSON (test.json).
+4. Now, clone the repository here – https://github.com/Montu/se-interpreter-browserstack-samples.git
+5. Install se-interpreter using command → npm install -g se-interpreter
+6. Add your automate username & key to the file ‘example_multi_config.json’
+7. Finally, place your recorded test (test.json) in se-interpreter-browserstack-samples → tests (you can delete the other files in here).
+8. While in the se-interpreter-browserstack-samples folder, run the command ‘se-interpreter example_multi_config.json’
